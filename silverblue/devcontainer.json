@@ -1,0 +1,7 @@
+{
+	"runArgs": ["--userns=keep-id"],
+	"containerUser": "vscode",
+	"privileged": true,
+	"name": "Alpine",
+	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.17"
+}
